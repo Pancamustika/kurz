@@ -88,9 +88,9 @@ const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot.js')
 const scrapper = require('./lib/scrapper')
 const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const client = new WAConnection()
-const ownerNumber = "6281220670449@s.whatsapp.net"
-const dtod = "6281220670449@s.whatsapp.net"
-const otod = "6281220670449@s.whatsapp.net"
+const ownerNumber = "62895888005@s.whatsapp.net"
+const dtod = "62895888005@s.whatsapp.net"
+const otod = "62895888005@s.whatsapp.net"
 // STICKER WM
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -139,7 +139,7 @@ let family100 = [];
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "/> Tato KurrXd";
+fake = "/> Tato ChikaBotz";
 autorespon = false
 playmusic = false
 menusimpel = false
@@ -360,7 +360,7 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© Kurz Bot Assistan_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© ChikaBotz_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              kurr.relayWAMessage(res)
         }
         const grupinv = (teks) => {
@@ -483,7 +483,7 @@ const ftrol = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `${tampilUcapan} ${pushname}`, //Kasih namalu
+                            message: `${tampilUcapan} ${pushname}`, //Ghilar 
                             orderTitle: `${tampilUcapan} ${pushname}`,
                             thumbnail: dfrply, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -571,7 +571,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6288213840883-1616169743@g.us",
+			"groupJid": "62895888005-1616169743@g.us",
 			"inviteCode": `${tampilUcapan} ${pushname}`,
 			"groupName": `${tampilUcapan} ${pushname}`, 
             "caption": `${tampilUcapan} ${pushname}`, 
@@ -583,7 +583,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "6289643739077-1613049930@g.us",
+      "remoteJid": "628995888005-1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -697,7 +697,7 @@ options
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿MENGDAFTAR🗿 `,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -1137,12 +1137,12 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
-cpref = `Hayo Ngomongin KurrXd Ganteng Yaaa Aowkowkwoo`
+if(budy.includes('ghilar')){
+cpref = `Hayo Ngomongin ghilar Ganteng Yaaa Aowkowkwoo`
 reply(cpref)
 }
-if(budy.includes('KurrTod')){
-cpref = `Hayo Ngomongin KurrXd Ganteng Yaaa Aowkowkwoo`
+if(budy.includes('Ghilar')){
+cpref = `Hayo Ngomongin Ghilar Ganteng Yaaa Aowkowkwoo`
 reply(cpref)
 }
            if (budy.startsWith('>')){
@@ -1224,7 +1224,7 @@ reply(String(e))
 				  }
     if (isGroup && isAntivirtex && !mek.key.fromMe) {
       if (budy.length > 2500) {
-        if (isGroupAdmins) return reply("admin bebas");
+        if (isGroupAdmins) return reply("admin mah bebas");
         reply("ANTIVIRTEX DETECTED!! MAAF ANDA AKAN DIKICK ;V");
         kurr.groupRemove(from, sender);
       }
@@ -1278,10 +1278,10 @@ if (budy.startsWith('kurr')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('https://www.instagram.com/sayawibuemlit/')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('https://youtube.com/channel/UCDU82KENOWTMcCcWd3ojfjw')
 }
 
    const sotoy = [
@@ -1351,15 +1351,15 @@ reply('http://youtube.com/c/KurrXd')
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *Ghilar*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : ChikaBotz_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : 628995888005
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -1797,7 +1797,7 @@ ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
 
 
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© ChikaBotz*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1805,7 +1805,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` ChikaBotz`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1905,7 +1905,7 @@ case 'menu':
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `╭─❒ 「 KurzBotz Assistan Info 」
+       menu = `╭─❒ 「 ChikaBotz Ingfo 」
 *TOTAL MENU :385*
 *OWNER: ${NamaOwner}*
 *NOMER OWNER: ${NomorOwner}*
@@ -1921,9 +1921,9 @@ _Dilarang keras_
 -VC BOT
 LANGGAR BANNED
 
-GITHUB OWNER:https://github.com/KurrXd
-YOUTUBE OWNER:https://youtube.com/c/KurrXd`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+GITHUB OWNER:https://github.com/Ghilar
+YOUTUBE OWNER:https://youtube.com/channel/UCDU82KENOWTMcCcWd3ojfjw`
+sendButLocation(from, `${menu}`, "*_© ChikaBotz_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1931,7 +1931,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` ChikaBotz`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1997,22 +1997,22 @@ case 'bego':
 case 'catalog': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 
-                nama = ' Kurz Bot Assistan '
-       ownerJid = "6281220670449@s.whatsapp.net"
+                nama = ' ChikaBotz '
+       ownerJid = "628995888005@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menunya = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *Ghilar*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : ChikaBotz_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : 628995888005
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -2489,7 +2489,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Kurz Bot Assistan`,
+footerText: `ChikaBotz`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2547,7 +2547,7 @@ https://bit.ly/BeliRdpBang ( KurrXd )
 
 
 *MATURSUWUN MONGGO DI LARISI*`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© ChikaBotz_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2555,7 +2555,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` ChikaBotz_`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2595,7 +2595,7 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 _ChikaBotz_ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -3427,7 +3427,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©Ghilar_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3466,12 +3466,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer Kurz Bot Assistan`,
+"displayName": `Developer ChikaBotz`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Kurz Bot Assistan`,
+"displayName": `Developer ChikaBotz`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3512,7 +3512,7 @@ break
 		anu =`PRICELIST SEWABOT
 		10K:6BULAN
 		20K:MANEN
-		SC? https://github.com/KurrXd/kurz`
+		SC? https://github.com/Ghilar/kurz`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
@@ -3520,7 +3520,7 @@ break
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©Ghilar_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3544,7 +3544,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `Kurz Bot Assistan`,
+							"hydratedFooterText": `ChikaBotz`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3592,12 +3592,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Kurz Bot Assistan`,
+    "hydratedFooterText": `ChikaBotz`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Kurz Bot Assistan`,
-          "url": "https://github.com/KurrXd"
+          "displayText": `Script ChikaBotz`,
+          "url": "https://github.com/Ghilar"
         },
         "index": 0
       }
@@ -3666,7 +3666,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=KurrXd`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Ghilar', imageMessage: imageMsg,
               contentText:`Subrek yt : KurrXd`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -3716,7 +3716,7 @@ case 'bj':
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=KurrXd`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Ghilar', imageMessage: imageMsg,
               contentText:`Subrek yt : KurrXd`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -3733,7 +3733,7 @@ case 'loli':
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await kurr.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Ghilar', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -3776,7 +3776,7 @@ case 'blackpink':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol})
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Protex Editz08`, quoted : ftrol})
                     })
                     break
                 case 'pornhub':
@@ -3794,7 +3794,7 @@ case 'blackpink':
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=KurrXd&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol})
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Protex Editz08`, quoted : ftrol})
                     })
                     break
 case 'neko':
@@ -3820,7 +3820,7 @@ case 'neko':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=KurrXd`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗✗✗ Ghilar', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -3856,7 +3856,7 @@ case 'neko':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol})
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Protex Editz08`, quoted : ftrol})
                     })
                     break
                 case 'arcade8bit':
@@ -3867,7 +3867,7 @@ case 'neko':
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=KurrXd&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol})
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Protex Editz08`, quoted : ftrol})
                     })
                     break
 
@@ -3906,7 +3906,7 @@ case 'neko':
                     if (args.length == 0) return reply(`Example: ${prefix + command} kurr xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=KurrXd&text=${ini_txt}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol}) 
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : Protex Editz08`, quoted : ftrol}) 
                     })
                     break
 
@@ -3996,7 +3996,7 @@ break
 case 'pinterest':
 if (!q) return reply("")
 pint = await pinterest (q)
-kurr.sendMessage(from, {url: `${pint[Math.floor(Math.random() * pint.length)]}`}, image, {quoted: mek, thumbnail: Buffer.alloc(0), caption: "Subscribe KurrXd"})
+kurr.sendMessage(from, {url: `${pint[Math.floor(Math.random() * pint.length)]}`}, image, {quoted: mek, thumbnail: Buffer.alloc(0), caption: "Subscribe Protex Editz08"})
 break
 case 'isbaileys': 
 case 'bail': 
@@ -4080,7 +4080,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©Ghilar_*',
     buttons: buttons,
     headerType: 1
 }
@@ -4237,7 +4237,7 @@ break
 case 'googlesearch':
 case 'ggs':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-if (args.length < 1) return reply('Yang mau di cari apaan?')
+if (args.length < 1) return reply('Yang mau di cari apaan banh?')
 teks = args.join(' ')
 sticWait(from)
 res = await ggs({'query' : `${teks}`})
@@ -4252,7 +4252,7 @@ reply(akhir)
 break
 case 'wiki':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-if (args.length < 1) return reply(' Yang Mau Di Cari Apa? ')
+if (args.length < 1) return reply(' Yang Mau Di Cari Apaan banh? ')
 teks = args.join(' ')
 res = await wikiSearch(teks).catch(e => {
 return reply('_[ ! ] Error Hasil Tidak Ditemukan_') 
